@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: #c6c5b9;
+}
+h1,
+h3 {
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  background-color: #546a7b;
+  border-radius: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #546a7b;
+}
+#list {
+  display: flex;
+  background-color: #62929e;
+  color: white;
+  border-radius: 15px;
+  width: 75%;
+  margin: 2%;
+  padding: 2%;
+}
+
+p,
+i {
+  background-color: #62929e;
+}
+
+.fa-check {
+  color: black;
+  font-size: 200%;
+  padding: 20%;
+  border-radius: 10px;
+}
+
+#input {
+  background-color: white;
+  width: 75%;
+  margin: 2%;
+  padding: 5%;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.txtbox {
+  background-color: #546a7b;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  background-color: #546a7b;
+}
+#add {
+  background-color: #393d3f;
+  color: white;
+  border-radius: 30px;
+  width: 100px;
+  height: 50px;
+  outline: none;
+}
+.list-wrapper {
+  display: flex;
+}
+.check-wrapper {
+  background-color: #546a7b;
+  padding-top: 4%;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #546a7b;
+}
